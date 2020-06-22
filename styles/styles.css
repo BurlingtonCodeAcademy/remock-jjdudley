@@ -156,12 +156,21 @@ button:hover {
     flex-direction: column;
     max-width: 70%;
      margin: 0;
+     margin-left: 50px;
 }
 
 #right_container {
     flex-direction: column;
     max-width: 30%;
     margin: 0;
+}
+
+#learn_more_right_container {
+    flex-direction: column;
+    max-width: 70%;
+     margin: 0;
+     margin-left: 50px;
+     margin-right: 50px;
 }
 
 
@@ -171,7 +180,6 @@ button:hover {
 
 #totally_heading {
     
-    margin-left: 56px;
     text-transform: uppercase;
     font-size: 1.5rem;
     margin-top: 50px;
@@ -181,7 +189,6 @@ button:hover {
 .blog_img_container {
     display: flex;
     margin-top: 20px;
-    margin-left: 50px;
     max-width: 750px;
 }
 
@@ -192,23 +199,23 @@ button:hover {
 
 .totally {
     margin-top: 30px;
-    margin-left: 50px;
+    
 }
 
 .totally_para {
     margin-top: 40px;
-    margin-left: 50px;
     word-break: break-all;
 }
 
 #totally_button {
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 0;
+    
 }
 
 #totally_divider {
     margin-top: 50px;
-    margin-left: 50px;
+   
     max-width: 750px;
 }
 
@@ -218,19 +225,18 @@ button:hover {
 
 #demo_heading {
     margin-top: 50px;
-    margin-left: 50px;
+    
     text-transform: uppercase;
 }
 
 #demo_para {
     margin-top: 40px;
-    margin-left: 50px;
     word-break: break-all;
 }
 
 #demo_button {
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 0;
 }
 
 /* Right side content */
