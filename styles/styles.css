@@ -86,7 +86,7 @@ a:hover {
     border-top: solid rgb(184, 184, 184) 1px;
     border-bottom: solid rgb(184, 184, 184) 1px;
     height: 5px;
-    width: 800px;
+    width: 70vw;
 }
 
 #features_caption {
@@ -163,14 +163,14 @@ button:hover {
 
 #left_container {
     flex-direction: column;
-    max-width: 70%;
+    max-width: 70vw;
      margin: 0;
      margin-left: 50px;
 }
 
 #right_container {
     flex-direction: column;
-    max-width: 30%;
+    max-width: 30vw;
     margin: 0;
 }
 
@@ -198,7 +198,7 @@ button:hover {
 .blog_img_container {
     display: flex;
     margin-top: 20px;
-    max-width: 750px;
+    width: 65vw;
 }
 
 .blog_img {
@@ -213,7 +213,7 @@ button:hover {
 
 .totally_blog {
     margin-top: 10px;
-    margin-left: 50px;
+    
 }
 
 .totally_para {
@@ -454,7 +454,7 @@ input {
 #blog_post_img_container {
     margin-top: 40px;
     display: flex;
-    max-width: 800px;
+    max-width: 70vw;
 }
 
 #blog_post_img {
@@ -465,19 +465,21 @@ input {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 70vw;
 }
 
 .blog_content {
     word-break: break-all;
     font-size: 0.7rem;
-    margin-left: 50px;
+    
 }
 
 .blog_strong {
     text-transform: uppercase;
     font-size: 0.8rem;
 }
+
+
 
 
 
